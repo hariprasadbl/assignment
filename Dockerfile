@@ -1,2 +1,2 @@
 FROM alpine
-RUN apt install git -y
+RUN apt-get install git -y
