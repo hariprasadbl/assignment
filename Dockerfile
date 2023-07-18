@@ -1,2 +1,3 @@
-FROM alpine
-RUN apt-get install git -y
+FROM ubuntu
+RUN apt update 
+RUN apt install git -y
